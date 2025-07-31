@@ -3,15 +3,18 @@
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
     import { getMessaging, getToken, onMessage } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-messaging.js";
 
+  
     const firebaseConfig = {
-        apiKey: "AIzaSyD5HgY2bI9Y9MFwLWsBHTiExwDkf7pZM6k",
-        authDomain: "talaa-2bd5f.firebaseapp.com",
-        projectId: "talaa-2bd5f",
-        storageBucket: "talaa-2bd5f.firebasestorage.app",
-        messagingSenderId: "996327384646",
-        appId: "1:996327384646:web:ac61584d89e06684fccc47",
-        vapidKey: "BJ6e7A28LAEgpImnx9kTvvPVX7GGQ78Qub_A-pI_WO6pbKjXwYGdIp-PV7E804PJ42xiTEE84cn_asPoSl1ohjo",
-    };
+            apiKey: "AIzaSyBMg64r8DjE98HJdy1uecrFCXYafeHVJyY",
+            authDomain: "narmer-app.firebaseapp.com",
+            projectId: "narmer-app",
+            storageBucket: "narmer-app.firebasestorage.app",
+            messagingSenderId: "283533596344",
+            appId: "1:283533596344:web:1f11d300dbda9ee2a7864d",
+            measurementId: "G-F329HN03Y1",
+            vapidKey: "BB43Sjgi3tjn_Gi4nIjK0pYIJemvW6_esbrjwmgm5crR-jcB9mVHIbxGmKUBY51wfv5mwNLPTt4JfbkjJg-WtcY",
+        };
+
 
     const app = initializeApp(firebaseConfig);
     const messaging = getMessaging(app);
